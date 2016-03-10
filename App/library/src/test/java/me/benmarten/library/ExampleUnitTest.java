@@ -1,8 +1,6 @@
-package me.benmarten.app;
+package me.benmarten.library;
 
 import org.junit.Test;
-
-import me.benmarten.library.LibraryClass;
 
 import static org.junit.Assert.*;
 
@@ -13,6 +11,5 @@ public class ExampleUnitTest {
   @Test
   public void addition_isCorrect() throws Exception {
     assertEquals(4, 2 + 2);
-    LibraryClass.log();
   }
 }
